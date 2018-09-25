@@ -56,7 +56,7 @@
         </config-file>
             
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <uses-library android:name="com.google.android.glass" android:required="true"/>
+            <uses-library android:name="com.google.android.glass" android:required="false"/>
         </config-file>
 
         <source-file src="res/xml/app_launch_voice_trigger.xml" 
